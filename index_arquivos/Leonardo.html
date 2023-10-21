@@ -1,0 +1,739 @@
+﻿<meta charset="utf-8">
+<!DOCTYPE html><html lang="pt-br">
+<head><title>MÚSICAS</title>
+<link rel="sortcut icon" href="https://play-lh.googleusercontent.com/y6-1jmKU3Zuo7809Gu2Ctg1XlTVQ6PbLbZ0U5WyxlvCQvqNPR2Q2o94YKP5JhvoJCvw=w240-h480" type="image/gif" />
+<link href="CSS🔴.css" rel="stylesheet">
+<link rel="stylesheet" href="CSS🔴.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="santos.12164@hotmail.com">
+<meta name="description" content="MÚSICAS">
+<meta name="keywords" content="MÚSICAS">
+</head><body><style>
+img {
+    max-width: 100%;
+}
+</style><center>
+<!----------------------------------------------------------->
+<!----------------------------------------------------------->
+<!----------------------------------------------------------->
+<!----------------------------------------------------------->
+<!-------------------------------------------------------------->
+<marquee><FONT SIZE=+3>MÚSICAS VARIADAS - VÁRIOS CANTORES<br></FONT></marquee>
+<!-------------------------------------------------------------->
+<h2><mark>BEM VINDO</mark></h2>
+<!-------------------------------🔴----------------------------->
+<HR/><h4>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+var now = new Date();
+var mName = now.getMonth() +1 ;
+var dName = now.getDay() +1;
+var dayNr = now.getDate();
+var yearNr=now.getYear();
+if(dName==1) {Day = "Domingo";}
+if(dName==2) {Day = "Segunda-feira";}
+if(dName==3) {Day = "Terça-feira";}
+if(dName==4) {Day = "Quarta-feira";}
+if(dName==5) {Day = "Quinta-feira";}
+if(dName==6) {Day = "Sexta-feira";}
+if(dName==7) {Day = "Sábado";}
+if(mName==1){Month = "Janeiro";}
+if(mName==2){Month = "Fevereiro";}
+if(mName==3){Month = "Março";}
+if(mName==4){Month = "Abril";}
+if(mName==5){Month = "Maio";}
+if(mName==6){Month = "Junho";}
+if(mName==7){Month = "Julho";}
+if(mName==8){Month = "Agosto";}
+if(mName==9){Month = "Setembro";}
+if(mName==10){Month = "Outubro";}
+if(mName==11){Month = "Novembro";}
+if(mName==12){Month = "Dezembro";}
+if(yearNr < 2000) {Year = 1900 + yearNr;}
+else {Year = yearNr;}
+var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
+document.write('  '+todaysDate);
+//-->
+</SCRIPT>
+<SPAN ID="Clock">00:00:00</SPAN>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  var Elem = document.getElementById("Clock");
+  function Horario(){ 
+    var Hoje = new Date(); 
+    var Horas = Hoje.getHours(); 
+    if(Horas < 10){ 
+      Horas = "0"+Horas; 
+    } 
+    var Minutos = Hoje.getMinutes(); 
+    if(Minutos < 10){ 
+      Minutos = "0"+Minutos; 
+    } 
+    var Segundos = Hoje.getSeconds(); 
+    if(Segundos < 10){ 
+      Segundos = "0"+Segundos; 
+    } 
+    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+    } 
+    window.setInterval("Horario()",1000);
+//-->
+</SCRIPT></body></html></h4><HR/><br/>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<html lang="pt"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title><!-- Load FontAwesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!-- CSS style --><style>
+    body {
+      background-color: lightgreen;
+      /* Smoothly transition the background color */
+      transition: background-color .5s;
+    }
+    .player {
+      height: 95vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .details {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 25px;
+    }
+    .track-art {
+      margin: 25px;
+      height: 250px;
+      width: 250px;
+      background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+      background-size: cover;
+      border-radius: 15%;
+    }
+    .now-playing {
+      font-size: 1rem;
+    }
+    .track-name {
+      font-size: 3rem;
+    }
+    .track-artist {
+      font-size: 1.5rem;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .playpause-track,
+    .prev-track,
+    .next-track {
+      padding: 25px;
+      opacity: 0.8;
+      /* Smoothly transition the opacity */
+      transition: opacity .2s;
+    }
+    .playpause-track:hover,
+    .prev-track:hover,
+    .next-track:hover {
+      opacity: 1.0;
+    }
+    .slider_container {
+      width: 75%;
+      max-width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* Modify the appearance of the slider */
+    .seek_slider,
+    .volume_slider {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      height: 5px;
+      background: black;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+    /* Modify the appearance of the slider thumb */
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      background: white;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .seek_slider:hover,
+    .volume_slider:hover {
+      opacity: 1.0;
+    }
+    .seek_slider {
+      width: 60%;
+    }
+    .volume_slider {
+      width: 30%;
+    }
+    .current-time,
+    .total-duration {
+      padding: 10px;
+    }
+    i.fa-volume-down,
+    i.fa-volume-up {
+      padding: 10px;
+    }
+    i.fa-play-circle,
+    i.fa-pause-circle,
+    i.fa-step-forward,
+    i.fa-step-backward {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  </div>
+  <!-- Main script for the player -->
+  <script>
+    let now_playing = document.querySelector(".now-playing");
+    let track_art = document.querySelector(".track-art");
+    let track_name = document.querySelector(".track-name");
+    let track_artist = document.querySelector(".track-artist");
+    let playpause_btn = document.querySelector(".playpause-track");
+    let next_btn = document.querySelector(".next-track");
+    let prev_btn = document.querySelector(".prev-track");
+    let seek_slider = document.querySelector(".seek_slider");
+    let volume_slider = document.querySelector(".volume_slider");
+    let curr_time = document.querySelector(".current-time");
+    let total_duration = document.querySelector(".total-duration");
+    let track_index = 0;
+    let isPlaying = false;
+    let updateTimer;
+    // Create new audio element
+    let curr_track = document.createElement('audio');
+    // Define the tracks that have to be played
+    let track_list = [
+<!------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+      {
+        name: "Bora Tomar Uma",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/2/5/d/4/leonardo-bora-tomar-uma-22942da4.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Amor De Primavera",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/6/f/d/3/leonardo-amor-de-primavera-a1491ce9.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Ainda Ontem Chorei De Saudade",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/d/8/d/9/leonardo-ainda-ontem-chorei-de-saudade-1d02fa4b.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Boate Azul",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/2/6/a/1/leonardo-boate-azul-666f6ccd.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Dormi Na Praça",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/9/6/2/3/leonardo-dormi-na-praca-0eea39bb.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Cabecinha No Ombro",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/5/1/c/9/leonardo-cabecinha-no-ombro-165605f9.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Andorinhas",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/b/f/3/1/leonardo-andorinhas-38ee0d02.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Abertura/Viva A Vida!",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/6/4/e/4/leonardo-aberturaviva-a-vida-c0c359ed.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Fuscão Preto/Pinga Ne Mim",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/5/3/0/0/leonardo-fuscao-pretopinga-ne-mim-cac967ba.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Coração Está Em Pedaços",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/b/c/c/7/leonardo-coracao-esta-em-pedacos-7bddc1fb.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Acabou O Amor",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/f/0/d/6/leonardo-acabou-o-amor-1b7c9dc7.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Telefone Mudo",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/c/3/5/0/leonardo-telefone-mudo-328a629e.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Liguei Pra Dizer Que Eu Te Amo/Sonhei Com Você",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/a/8/b/f/leonardo-liguei-pra-dizer-que-eu-te-amosonhei-com-voce-c8e8e874.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Amigos De Bar",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/0/0/c/f/leonardo-amigos-de-bar-066f4bc2.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Amor Rebelde",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/b/8/e/4/leonardo-amor-rebelde-325daf8b.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Paixão De Um Homem/Na Hora Do Adeus/Eu Não Cachorro Não",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/7/c/c/4/leonardo-paixao-de-um-homemna-hora-do-adeuseu-nao-cachorro-nao-fa7bfb4e.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Quem É Que Chora Por Mim?",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/0/0/2/2/leonardo-quem-e-que-chora-por-mim-60cf47e5.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Perder Você É Abraçar A Solidão",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/c/3/3/e/leonardo-perder-voce-e-abracar-a-solidao-36e93700.mp3"
+      },
+<!------------------------------------------------------->
+       {
+        name: "Chora Peito",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/3/7/e/4/leonardo-chora-peito-46506a7e.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Cicatriz",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/1/3/3/a/leonardo-cicatriz-d5dd5d25.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Devolva A Passagem",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/6/2/4/7/leonardo-devolva-a-passagem-6b93cea3.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Biquini Bordô",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/e/5/a/3/leonardo-biquini-bordo-f3e333db.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Estrela De Ouro",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/f/4/9/0/leonardo-estrela-de-ouro-a45d94e4.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Homem Safado",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/5/9/1/1/leonardo-homem-safado-497bd852.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Eu Juro",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/3/c/4/4/leonardo-eu-juro-059a7d7d.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Noite De Tortura",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/c/0/0/d/leonardo-noite-de-tortura-95b206d3.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Você Marcou Pra Mim",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/3/a/3/3/leonardo-voce-marcou-pra-mim-6f9da8e9.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Pare Com Isso",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/a/0/7/0/leonardo-pare-com-isso-07db489f.mp3"
+      },
+<!------------------------------------------------------->
+       {
+        name: "O Homem Da Sua Vida",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/6/3/4/0/leonardo-o-homem-da-sua-vida-3ede9581.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Homens",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/d/a/2/0/leonardo-homens-f5e5f5d9.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Me Deixe Só",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/d/6/4/8/leonardo-me-deixe-so-c0411f84.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Sangue De Gelo",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/5/8/b/0/leonardo-sangue-de-gelo-0fc7ea9f.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "Ponto Negro",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/4/4/a/5/leonardo-ponto-negro-542aeece.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "O Fodão Chorou",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/1/2/d/9/leonardo-o-fodao-chorou-7d8f4743.mp3"
+      },
+<!------------------------------------------------------->
+      {
+        name: "As Andorinhas",
+        artist: "Leonardo",
+        image: "https://akamai.sscdn.co/tb/160x160/palcomp3-logo/4/8/d/5/510183ce86fa4458b9d46538098d52d1.jpg",
+        path: "https://65381g.ha.azioncdn.net/6/4/8/4/leonardo-as-andorinhas-018bfa67.mp3"
+      },
+<!------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------->
+      {
+        name: "FIM🔴",
+        artist: "Leonardo",
+        image: "https://1.bp.blogspot.com/-XA--e7ZZZJY/Tq7qJfF3bEI/AAAAAAAABIc/PgWFn4WyovY/s1600/Fim-vermelho%255B1%255D.jpg",
+        path: "MP3🔴"
+      },
+<!------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------->
+    ];
+    function loadTrack(track_index) {
+      clearInterval(updateTimer);
+      resetValues();
+      // Load a new track
+      curr_track.src = track_list[track_index].path;
+      curr_track.load();
+      // Update details of the track
+      track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
+      track_name.textContent = track_list[track_index].name;
+      track_artist.textContent = track_list[track_index].artist;
+      now_playing.textContent = "PLAYER " + (track_index + 1) + " DE " + track_list.length;
+      // Set an interval of 1000 milliseconds for updating the seek slider
+      updateTimer = setInterval(seekUpdate, 1000);
+      // Move to the next track if the current one finishes playing
+      curr_track.addEventListener("ended", nextTrack);
+      // Apply a random background color
+      random_bg_color();
+    }
+    function random_bg_color() {
+      // Get a random number between 64 to 256 (for getting lighter colors)
+      let red = Math.floor(Math.random() * 256) + 64;
+      let green = Math.floor(Math.random() * 256) + 64;
+      let blue = Math.floor(Math.random() * 256) + 64;
+      // Construct a color withe the given values
+      let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+      // Set the background to that color
+      document.body.style.background = bgColor;
+    }
+    // Reset Values
+    function resetValues() {
+      curr_time.textContent = "00:00";
+      total_duration.textContent = "00:00";
+      seek_slider.value = 0;
+    }
+    function playpauseTrack() {
+      if (!isPlaying) playTrack();
+      else pauseTrack();
+    }
+    function playTrack() {
+      curr_track.play();
+      isPlaying = true;
+      // Replace icon with the pause icon
+      playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+    }
+    function pauseTrack() {
+      curr_track.pause();
+      isPlaying = false;
+      // Replace icon with the play icon
+      playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
+    }
+    function nextTrack() {
+      if (track_index < track_list.length - 1)
+        track_index += 1;
+      else track_index = 0;
+      loadTrack(track_index);
+      playTrack();
+    }
+    function prevTrack() {
+      if (track_index > 0)
+        track_index -= 1;
+      else track_index = track_list.length;
+      loadTrack(track_index);
+      playTrack();
+    }
+    function seekTo() {
+      seekto = curr_track.duration * (seek_slider.value / 100);
+      curr_track.currentTime = seekto;
+    }
+    function setVolume() {
+      curr_track.volume = volume_slider.value / 100;
+    }
+    function seekUpdate() {
+      let seekPosition = 0;
+      // Check if the current track duration is a legible number
+      if (!isNaN(curr_track.duration)) {
+        seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+        seek_slider.value = seekPosition;
+        // Calculate the time left and the total duration
+        let currentMinutes = Math.floor(curr_track.currentTime / 60);
+        let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+        let durationMinutes = Math.floor(curr_track.duration / 60);
+        let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+        // Adding a zero to the single digit time values
+        if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+        if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+        if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+        if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+        curr_time.textContent = currentMinutes + ":" + currentSeconds;
+        total_duration.textContent = durationMinutes + ":" + durationSeconds;
+      }
+    }
+    // Load the first track in the tracklist
+    loadTrack(track_index);
+  </script>
+</body>
+</html>
+<!------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
+<!------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
+<!------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h4 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+</body>
+</html>
+<!-------------------------------
+<HR WIDTH="80%"><HR NOSHADE SIZE="5" color="red"><!DOCTYPE html>
+<html>
+<head>
+<style>
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 3px solid #0000FF;
+  font-size: 22px;
+}
+.pagination a.active {
+  background-color: #01DF01;
+  color: white;
+  border: 3px solid #DF0101;
+}
+.pagination a:hover:not(.active) {background-color: #FFFF00;}
+</style>
+</head>
+<body>
+<div class="pagination">
+
+
+  <a href="1 - Copia.html" class="active">1</a>
+  <a href="1 - Copia (2).html">2</a>
+  <a href="1 - Copia (3).html">3</a>
+
+
+</div>
+</body>
+</html><HR NOSHADE SIZE="5" color="red">
+<HR NOSHADE SIZE="5" color="#00ff00">
+<!------------------------------------------------------------->
+<HR WIDTH="80%"><HR SIZE="2">
+<marquee>Fale comigo por WHATSAPP "85"9 8888-5153  Santos*, e só clicar no link abaixo<br></marquee>
+<a href="
+https://wa.me/5585988885153?text=SANTOS+QUERO+DIZER+QUE+...
+" target="_blank"><h2>
+*FALE COMIGO
+</h2></a>
+<HR NOSHADE SIZE="3" color="red">
+<HR NOSHADE SIZE="5" color="#00ff00">©️<br/><br/><br/></center>
+
+					
